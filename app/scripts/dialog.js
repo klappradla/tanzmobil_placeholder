@@ -5,8 +5,8 @@ APP.Dialog = (function() {
     theater = new TheaterJS({
       erase: false,
       autoplay: true,
-      minspeed: 30,
-      maxspeed: 500
+      minspeed: 10,
+      maxspeed: 200
     });
   }
 
