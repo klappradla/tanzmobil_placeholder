@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -21,19 +22,23 @@
     <![endif]-->
 
     <div id="container">
-      <object id="car" type="image/svg+xml" data="images/car.svg">Your browser does not support SVG</object>
 
-      <div id="header" class="center">
-        <h1 class="headline">tanzmobil</h1>
-        <h2 class="headline">productions</h2>
-      </div>
+      <header>
+        <object id="car" type="image/svg+xml" data="images/car.svg">Your browser does not support SVG</object>
+        <div id="headline">
+          <h1>tanzmobil</h1>
+          <h2>productions</h2>          
+        </div>
+      </header>
 
-      <div id="theater" class="center">
-          <div class="question">- <span id="question" class="question"></span></div>
-          <div class="answer">- <span id="answer" class="answer"></span></div>          
-      </div>
+      <main>
+        <div id="theater">
+            <div class="question">- <span id="question" class="question"></span></div>
+            <div class="answer">- <span id="answer" class="answer"></span></div>          
+        </div>
+      </main>
 
-      <div id="newsletter" class="center">
+      <article id="newsletter">
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <div id="mc_embed_signup">
@@ -48,11 +53,12 @@
           </form>
         </div>
         <!--End mc_embed_signup-->
-      </div>
+      </article>
 
-      <div id="footer">
-        <span>made with ♥︎ in berlin &amp; vienna</span>
-      </div>
+      <footer>
+        <span>from berlin &amp; vienna</span>
+      </footer>
+
     </div>
 
 

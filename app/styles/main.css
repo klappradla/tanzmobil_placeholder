@@ -1,24 +1,115 @@
 body {
   background: #F2F2F2;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
   color: #333;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
+div#container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.hero-unit h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
+header {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+#car {
+  width: 100%;
+}
+
+#headline {
+  width: 350px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+#headline h1 {  
+  margin: 2px 0 0;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+#headline h2 {
+  margin: -20px 0 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #8BD2B4;
+}
+
+main {
+  padding: 20px 0;
+  margin-left: auto;
+  width: 700px;
+}
+
+#theater {
+  padding-bottom: 20px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.answer {
+  font-size: 20px;
+  font-weight: 100;
+  color: #777;
+}
+
+#newsletter {
+  padding-bottom: 40px;
+  width: 350px;
+  margin: 0 auto;
+
+}
+
+#mc_embed_signup {
+  clear: left;
+}
+
+input.button {
+  width: 100% !important;
+  margin: 0 !important;
+  font-family: "Roboto" !important;
+  font-weight: 400 !important;
+  background-color: #8BD2B4 !important;
+}
+
+input.button:hover {
+  background-color: #61927D !important;
+}
+
+#mc_embed_signup form {
+  padding-left: 0 !important;
+  width: 100% !important;
+}
+
+#mc_embed_signup label {
+  text-align: center !important;
+  font-family: "Roboto" !important;
+  font-weight: 300 !important;
+  color: #333 !important;  
+}
+
+#mc_embed_signup input.email {
+  width: 100% !important;
+  font-family: "Roboto" !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important;
+  -khtml-border-radius: 5px !important;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  color: #777;
 }
 
 .browsehappy {
