@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "jquery": "~1.11.1",
-    "snap.svg": "~0.4.1"
+    "snap.svg": "~0.4.1",
+    "theaterjs": "~1.4.1"
   }
 }

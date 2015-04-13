@@ -33,8 +33,8 @@ APP.Car = (function() {
     turnWheel(wheels.back);
   }
 
-  return {
 
+  return {
     init: function(element) {
       initialize(element);
       animate();
