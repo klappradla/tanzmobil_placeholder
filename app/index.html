@@ -43,7 +43,14 @@
     </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/car.js"></script>
         <!-- endbuild -->
+
+    <script>
+      $( document ).ready(function() {
+        APP.init();
+      });
+    </script>
 </body>
 </html>
