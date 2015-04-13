@@ -46,22 +46,21 @@ main {
 }
 
 #theater {
+  font-size: 20px;
   padding-bottom: 20px;
 }
 
 .question {
-  font-size: 20px;
   font-weight: 300;
 }
 
 .answer {
-  font-size: 20px;
   font-weight: 100;
   color: #777;
 }
 
 #newsletter {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   width: 350px;
   margin: 0 auto;
 
@@ -117,4 +116,67 @@ footer {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+
+/*
+  media queries
+*/
+
+/* medium devices */
+@media all and (min-width: 1024px) {
+}
+
+/* tablets */
+@media all and (min-width: 767px) and (max-width: 1024px) {
+  #headline {
+    width: 300px;
+  }
+
+  #headline h1 {
+    font-size: 60px;
+  }
+
+  #headline h2 {
+    font-size: 30px;
+    margin: -15px 0 0;
+  }
+
+  main {
+    width: 350px;
+    height: 80px;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+}
+
+/* phones */
+@media all and (max-width: 767px) {
+  #headline {
+    width: 250px;
+  }
+
+  #headline h1 {
+    font-size: 50px;
+  }
+
+  #headline h2 {
+    font-size: 20px;
+    margin: -10px 0 0;
+  }
+
+  main {
+    width: 300px;
+    height: 80px;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+
+  #theater {
+    font-size: 16px;
+  }
+
+  #newsletter {
+    width: 300px;
+  }
 }
