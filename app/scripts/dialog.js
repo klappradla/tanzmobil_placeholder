@@ -14,7 +14,7 @@ APP.Dialog = (function() {
     // actors
     theater
       .describe('question', { speed: .8, accuracy: .7, invincibility: 5 }, '#question')
-      .describe('answer', { speed: .8, accuracy: .8, invincibility: 6 }, '#answer')
+      .describe('answer', { speed: .9, accuracy: .8, invincibility: 6 }, '#answer')
 
     // scenario
     theater
@@ -38,7 +38,7 @@ APP.Dialog = (function() {
       .write(200)
       .write('question:where can i find the interviews?')
       .write(200)
-      .write('answer:here on tanzmobil.eu soon.')
+      .write('answer:here on tanzmobil.eu soon!')
       .write(200)
       .write('question:what can i do until then?')
       .write(200)

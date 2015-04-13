@@ -52,6 +52,7 @@ main {
 
 .question {
   font-weight: 300;
+  padding-bottom: 0.3em;
 }
 
 .answer {
@@ -63,7 +64,15 @@ main {
   padding-bottom: 80px;
   width: 350px;
   margin: 0 auto;
+}
 
+#newsletter h3 {
+  text-align: center;
+  color: #D8595F;
+  font-size: 26px;
+  opacity: 0.7;
+  font-style: italic;
+  font-weight: 100;
 }
 
 #mc_embed_signup {
